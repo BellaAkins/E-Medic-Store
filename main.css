@@ -1,0 +1,1040 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Quicksand:wght@400;600&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto flex";
+  scroll-behavior: smooth;
+}
+* a {
+  text-decoration: none;
+}
+* li {
+  list-style: none;
+}
+* .cta {
+  background: #0b63b2;
+  padding: 16px 28px;
+  border-radius: 8px;
+  border: none;
+  width: 195px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1.8em;
+  margin-left: 0.2em;
+}
+* .cta:hover {
+  border: 2px solid #0b63b2;
+  background: none;
+  color: #0b63b2;
+  letter-spacing: 3px;
+}
+* svg {
+  width: 2.3em;
+}
+* .open-nav {
+  transform: translateX(0);
+}
+
+body header {
+  font-family: "roboto flex";
+  display: flex;
+  justify-content: space-around;
+  margin: 1.2em;
+}
+body header .close {
+  float: right;
+  margin: 2em;
+  background: #0b63b2;
+}
+body header .logo {
+  width: 80%;
+}
+body header nav {
+  position: fixed;
+  background: #0b63b2;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 50%;
+  z-index: 999;
+  transform: translateX(100%);
+}
+body header nav ul {
+  padding: 0;
+  margin-top: 6em;
+}
+body header nav ul a {
+  display: block;
+  color: #fdfdfd;
+  padding: 1em 2em;
+}
+body header nav ul a:hover {
+  background: #fdfdfd;
+  color: #0b63b2;
+}
+body header nav .icons {
+  display: block;
+  margin-top: 2em;
+  color: #fdfdfd;
+}
+body header nav .icons svg {
+  margin-left: 1.5em;
+}
+body header .cta-buttons,
+body header .nav-icon {
+  display: none;
+}
+body Section.hero .hero-content {
+  display: flex;
+  flex-direction: column;
+}
+body Section.hero .hero-content .hero-image img {
+  width: 100%;
+}
+body Section.hero .hero-content .text {
+  margin-left: 1.2em;
+}
+body Section.hero .hero-content .text h1 {
+  margin-top: 2.3em;
+  color: #0b63b2;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45.6px;
+  letter-spacing: -0.38px;
+  width: 347px;
+}
+body Section.hero .hero-content .text h1 span {
+  color: #0b63b2;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 45.6px;
+  letter-spacing: -0.38px;
+}
+body Section.hero .hero-content .text p {
+  color: #676767;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 1.2em;
+  width: 312px;
+}
+body Section.hero .hero-content .text button {
+  background: #0b63b2;
+  padding: 16px 28px;
+  border-radius: 8px;
+  border: none;
+  width: 195px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1.8em;
+  margin-left: 1em;
+}
+body Section.hero .hero-content .text button:hover {
+  border: 2px solid #0b63b2;
+  background: none;
+  color: #0b63b2;
+  letter-spacing: 3px;
+}
+body Section.hero .sub-hero h4 {
+  width: 326px;
+  color: var(--Foundation-Blue-Normal, #0b63b2);
+  font-family: Roboto Flex;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
+body Section.hero .sub-hero .sub-hero-images {
+  display: flex;
+  gap: 2em;
+  margin: 0 auto;
+  padding: 1.5em;
+  width: 358px;
+}
+body Section.hero .sub-hero .sub-hero-images .deliveries img {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  width: 56px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+}
+body Section.hero .sub-hero .sub-hero-images .sub-hero-text {
+  color: #0b63b2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+body section.relationship .relationship-content {
+  margin-top: 4em;
+  display: block;
+}
+body section.relationship .relationship-content .rel-image img {
+  display: block;
+  margin-left: 2em;
+  width: 320px;
+  height: 296.62px;
+}
+body section.relationship .relationship-content .relationship-text {
+  padding: 1.5em;
+}
+body section.relationship .relationship-content .relationship-text h2 {
+  width: 343px;
+  color: #0b63b2;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43.2px;
+}
+body section.relationship .relationship-content .relationship-text p {
+  width: 343px;
+  color: #676767;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 1.7em;
+}
+body section.value {
+  margin-top: 3em;
+}
+body section.value h2 {
+  color: #0b63b2;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 57.6px;
+  margin: 0 auto;
+  text-align: center;
+}
+body section.value p {
+  color: #676767;
+  font-size: 19px;
+  width: 290px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+body section.value .value-content {
+  margin-top: 3em;
+  display: block;
+}
+body section.value .value-content .med {
+  background: rgba(11, 99, 178, 0.05);
+  padding: 2em 3em;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7em;
+}
+body section.value .value-content .med img {
+  width: 199px;
+  height: 226px;
+  flex-shrink: 0;
+  display: block;
+  margin: 0 auto;
+}
+body section.value .value-content .med .text h5 {
+  color: #0b63b2;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+body section.value .value-content .med .text .price {
+  text-align: center;
+}
+body section.value .value-content .med .text .price h6 {
+  color: var(--foundation-white-dark-hover, #8a8a8a);
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+body section.value .value-content .med .text .price h6 span {
+  text-decoration: line-through;
+  color: var(--foundation-white-normal-active, #b8b8b8);
+  font-family: Roboto Flex;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+body section.value .value-content .med .text .price .bold {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+body section.value .value-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+body section.medication {
+  margin-top: 3em;
+}
+body section.medication .medication-content {
+  padding: 1.3em;
+  background: url(images/medication-background.svg);
+}
+body section.medication .medication-content h2 {
+  width: 290px;
+  height: 160px;
+  color: #fdfdfd;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.72px;
+  line-height: 40.4px;
+  width: 234px;
+}
+body section.medication .medication-content h2 span {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+}
+body section.medication .medication-content .medication-btn {
+  background: #0b63b2;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+body section.medication .medication-content .medication-btn:hover {
+  background: #05dd6b;
+}
+body section.medication .medication-content button {
+  margin-top: 0.2em;
+}
+body section.medication .medication-content button img {
+  display: flex;
+  width: 14px;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+}
+body section.consultation {
+  margin-top: 3em;
+  padding: 2em;
+}
+body section.consultation .consultation-content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+body section.consultation .consultation-content .consultation-image-box img {
+  width: 360px;
+  height: 325px;
+  margin: 0 auto;
+  display: block;
+}
+body section.consultation .consultation-content .consultation-text {
+  margin-top: 3em;
+}
+body section.consultation .consultation-content .consultation-text h2 {
+  width: 377px;
+  color: #0b63b2;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47.6px;
+}
+body section.consultation .consultation-content .consultation-text p {
+  margin-top: 1em;
+  width: 342px;
+  color: #676767;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+body section.consultation .consultation-content .consultation-text .consultation-btn {
+  display: flex;
+  width: 185px;
+  padding: 12px 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background: #0b63b2;
+  color: #fff;
+  margin-top: 1.2em;
+}
+body section.consultation .consultation-content .consultation-text .consultation-btn:hover {
+  border: 2px solid #0b63b2;
+  color: #0b63b2;
+  background: none;
+}
+
+@media only screen and (min-width: 680px) {
+  body header nav {
+    background: #0b63b2;
+  }
+  body header nav ul a {
+    font-size: 23px;
+  }
+  body header nav .nav-icon svg {
+    margin-left: 2.5em;
+  }
+  body Section.hero .hero-content .text {
+    padding: 2em;
+  }
+  body Section.hero .hero-content .text h1 {
+    margin-top: 1em;
+    color: #0b63b2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.6px;
+    letter-spacing: -0.38px;
+    width: 447px;
+  }
+  body Section.hero .hero-content .text h1 span {
+    color: #0b63b2;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 45.6px;
+    letter-spacing: -0.38px;
+  }
+  body Section.hero .hero-content .text p {
+    color: #676767;
+    font-family: Roboto Flex;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    width: 612px;
+    margin-top: 1em;
+  }
+  body Section.hero .hero-content .text button {
+    background: #0b63b2;
+    padding: 16px 28px;
+    border-radius: 8px;
+    border: none;
+    width: 195px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1.8em;
+    margin-left: 1em;
+  }
+  body Section.hero .hero-content .text button:hover {
+    border: 2px solid #0b63b2;
+    background: none;
+    color: #0b63b2;
+    letter-spacing: 3px;
+  }
+  body Section.hero .sub-hero h4 {
+    width: 690px;
+    color: #0b63b2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: 0 auto;
+  }
+  body Section.hero .sub-hero .sub-hero-images {
+    display: flex;
+    gap: 6em;
+    margin: 0 auto;
+    padding: 1em;
+    width: 638px;
+  }
+  body Section.hero .sub-hero .sub-hero-images .deliveries img {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+  }
+  body Section.hero .sub-hero .sub-hero-images .sub-hero-text {
+    text-align: center;
+    color: #0b63b2;
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    color: var(--Foundation-Blue-Normal, #0b63b2);
+    font-family: Roboto Flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+  }
+  body section.relationship .relationship-content {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  body section.relationship .relationship-content .rel-image img {
+    display: block;
+    width: 330px;
+    height: 476px;
+  }
+  body section.relationship .relationship-content .relationship-text h2 {
+    margin-top: 3em;
+    width: 193px;
+    color: #0b63b2;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.2px;
+  }
+  body section.relationship .relationship-content .relationship-text p {
+    width: 243px;
+    color: #676767;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 1em;
+  }
+  body section.relationship .relationship-content .relationship-text .relationship-btn {
+    margin-top: 1em;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  body section.value {
+    margin-top: 3em;
+  }
+  body section.value h2 {
+    color: #0b63b2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body section.value p {
+    color: #676767;
+    font-size: 20px;
+    width: 600px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 1.4em;
+    text-align: center;
+  }
+  body section.value .value-content {
+    margin-top: 3em;
+  }
+  body section.value .value-content .med {
+    background: rgba(11, 99, 178, 0.05);
+    padding: 2em;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3em;
+  }
+  body section.value .value-content .med img {
+    width: 390px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  body section.value .value-content .med .text h5 {
+    color: var(--Foundation-Blue-Normal, #0b63b2);
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body section.value .value-content .med .text .price {
+    text-align: center;
+    margin-top: 2em;
+  }
+  body section.value .value-content .med .text .price h6 {
+    color: #8a8a8a;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  body section.value .value-content .med .text .price h6 span {
+    text-decoration: line-through;
+    color: #b8b8b8;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  body section.value .value-content .med .text .price .bold {
+    color: #333;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  body section.value .value-btn {
+    display: block;
+    display: none;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 2em;
+  }
+  body section.medication {
+    margin-top: 3em;
+  }
+  body section.medication .medication-content h2 {
+    font-size: 33.5px;
+  }
+  body section.consultation {
+    margin-top: 3em;
+    padding: 2em;
+  }
+  body section.consultation .consultation-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    display: none;
+  }
+  body section.consultation .consultation-content .consultation-image-box img {
+    width: 320px;
+    height: 320px;
+    margin: 0px;
+  }
+  body section.consultation .consultation-content .consultation-text {
+    margin-top: 1em;
+  }
+  body section.consultation .consultation-content .consultation-text h2 {
+    width: 317px;
+    color: #0b63b2;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.6px;
+  }
+  body section.consultation .consultation-content .consultation-text p {
+    margin-top: 1em;
+    width: 314px;
+    color: #676767;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+  }
+  body section.consultation .consultation-content .consultation-text .consultation-btn {
+    display: flex;
+    width: 185px;
+    padding: 12px 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .menu,
+  .close,
+  .nav-cta {
+    display: none;
+  }
+  body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body header nav {
+    transform: translateX(0);
+    background: none;
+    position: unset;
+    width: auto;
+    height: auto;
+    margin-left: -65em;
+  }
+  body header nav .icons {
+    display: none;
+  }
+  body header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    background: none;
+  }
+  body header nav ul a {
+    color: #0b63b2;
+    font-family: Roboto Flex;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  body header nav ul a:hover {
+    background: none;
+    -webkit-text-decoration: 4px solid #05dd6b underline;
+            text-decoration: 4px solid #05dd6b underline;
+  }
+  body header .cta-buttons,
+  body header .nav-icon {
+    display: block;
+  }
+  body header .cta-buttons ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-right: 11em;
+  }
+  body header .cta-buttons ul .order-now {
+    background: #0b63b2;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 0px solid var(--Foundation-Blue-Normal, #0b63b2);
+  }
+  body header .cta-buttons ul .order-now a {
+    color: #fff;
+  }
+  body header .cta-buttons ul .merchant {
+    background: #05dd6b;
+    border: 0px solid var(--Foundation-Green-Normal, #05dd6b);
+    border-radius: 8px;
+    padding: 10px 16px;
+  }
+  body header .cta-buttons ul .merchant a {
+    color: #fff;
+  }
+  body header .nav-icon ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  body header .nav-icon ul li svg {
+    width: 24px;
+    height: 24px;
+  }
+  body section.hero .hero-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-self: center;
+  }
+  body section.hero .hero-content .hero-image {
+    width: 100%;
+  }
+  body section.hero .hero-content .text {
+    padding: 1.2em;
+  }
+  body section.hero .hero-content .text h1 {
+    margin-top: 1.3em;
+    color: #0b63b2;
+    width: 798px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.8px;
+    letter-spacing: -0.64px;
+  }
+  body section.hero .hero-content .text h1 span {
+    color: var(--Foundation-Blue-Normal, #0b63b2);
+    font-family: Roboto Flex;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 76.8px;
+    letter-spacing: -0.64px;
+  }
+  body section.hero .hero-content .text p {
+    color: var(--foundation-white-dark-active, #676767);
+    font-family: Roboto Flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    width: 637px;
+  }
+  body section.hero .hero-content .text button {
+    background: #0b63b2;
+    padding: 16px 28px;
+    border-radius: 8px;
+    border: none;
+    width: 195px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1.8em;
+    margin-left: 1em;
+  }
+  body section.hero .hero-content .text button:hover {
+    border: 2px solid #0b63b2;
+    background: none;
+    color: #0b63b2;
+    letter-spacing: 3px;
+  }
+  body section.hero .sub-hero {
+    margin-top: 3em;
+  }
+  body section.hero .sub-hero h4 {
+    width: 919px;
+    color: #0b63b2;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+  }
+  body section.hero .sub-hero .sub-hero-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  body section.hero .sub-hero .sub-hero-images .deliveries img {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+  }
+  body section.hero .sub-hero .sub-hero-images .sub-hero-text {
+    color: #0b63b2;
+    width: 197px;
+    height: 36px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-left: 0.5em;
+  }
+  body section.relationship .relationship-content {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+  body section.relationship .relationship-content .rel-image img {
+    display: block;
+    width: 636px;
+    height: 636px;
+  }
+  body section.relationship .relationship-content .relationship-text h2 {
+    margin-top: 3em;
+    width: 477px;
+    color: #0b63b2;
+    font-weight: 600;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px;
+  }
+  body section.relationship .relationship-content .relationship-text p {
+    width: 442px;
+    color: #676767;
+    margin-top: 1.7em;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  body section.value {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5em;
+    position: relative;
+  }
+  body section.value h2 {
+    color: #0b63b2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body section.value p {
+    color: #676767;
+    font-size: 20px;
+    width: 708px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 1.4em;
+    text-align: center;
+  }
+  body section.value .value-content {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+    margin-top: 6em;
+  }
+  body section.value .value-content .med {
+    width: 380px;
+    height: 380px;
+    padding: 1em;
+  }
+  body section.value .value-content .med img:hover {
+    transform: scale(1.1);
+  }
+  body section.value .value-content .med .first-med {
+    width: 299px;
+    height: 226px;
+  }
+  body section.value .value-content .med .second-med {
+    width: 197px;
+    height: 390px;
+    position: absolute;
+    top: 7.8em;
+    right: 30em;
+  }
+  body section.value .value-content .med .third-med {
+    width: 295px;
+    height: 295px;
+    position: absolute;
+    top: 9.8em;
+    right: 2em;
+  }
+  body section.value .value-content .second-med-text {
+    position: relative;
+    bottom: -15em;
+  }
+  body section.value .value-content .third-med-text {
+    position: relative;
+    bottom: -15em;
+  }
+  body section.value .value-btn {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 4em;
+  }
+  body section.medication {
+    margin-top: 3em;
+  }
+  body section.medication .medication-content {
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+  }
+  body section.medication .medication-content h2 {
+    width: 290px;
+    height: 160px;
+    color: #fdfdfd;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    line-height: 40.4px;
+    width: 234px;
+    width: 514px;
+    color: var(--Foundation-White-Light, #fdfdfd);
+    font-family: Roboto Flex;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86.4px; /* 120% */
+    letter-spacing: -0.72px;
+  }
+  body section.medication .medication-content h2 span {
+    color: var(--Foundation-White-Light, #fdfdfd);
+    font-family: Roboto Flex;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 86.4px;
+    letter-spacing: -0.72px;
+  }
+  body section.medication .medication-content .medication-btn {
+    background: #0b63b2;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    padding: 8px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--Base-White, #fff);
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    margin-top: 8em;
+  }
+  body section.medication .medication-content .medication-btn:hover {
+    background: #05dd6b;
+  }
+  body section.medication .medication-content button img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  body section.consultation {
+    margin-top: 5em;
+  }
+  body section.consultation .consultation-content {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+  }
+  body section.consultation .consultation-content .consultation-image-box img {
+    width: 750px;
+    height: 636px;
+  }
+  body section.consultation .consultation-content .consultation-text {
+    margin-top: 1em;
+  }
+  body section.consultation .consultation-content .consultation-text h2 {
+    width: 477px;
+    color: #0b63b2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px;
+  }
+  body section.consultation .consultation-content .consultation-text p {
+    margin-top: 1em;
+    color: #676767;
+    width: 442px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=main.css.map */

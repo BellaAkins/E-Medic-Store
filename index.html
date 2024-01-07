@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Medic store</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+        <nav>
+          <svg
+            class="close"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C10.0222 2 8.08879 2.58649 6.4443 3.6853C4.79981 4.78412 3.51809 6.3459 2.76121 8.17317C2.00433 10.0004 1.8063 12.0111 2.19215 13.9509C2.578 15.8907 3.53041 17.6725 4.92894 19.0711C6.32746 20.4696 8.10929 21.422 10.0491 21.8079C11.9889 22.1937 13.9996 21.9957 15.8268 21.2388C17.6541 20.4819 19.2159 19.2002 20.3147 17.5557C21.4135 15.9112 22 13.9778 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7363 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2V2ZM14.71 13.29C14.8037 13.383 14.8781 13.4936 14.9289 13.6154C14.9797 13.7373 15.0058 13.868 15.0058 14C15.0058 14.132 14.9797 14.2627 14.9289 14.3846C14.8781 14.5064 14.8037 14.617 14.71 14.71C14.617 14.8037 14.5064 14.8781 14.3846 14.9289C14.2627 14.9797 14.132 15.0058 14 15.0058C13.868 15.0058 13.7373 14.9797 13.6154 14.9289C13.4936 14.8781 13.383 14.8037 13.29 14.71L12 13.41L10.71 14.71C10.617 14.8037 10.5064 14.8781 10.3846 14.9289C10.2627 14.9797 10.132 15.0058 10 15.0058C9.86799 15.0058 9.73729 14.9797 9.61543 14.9289C9.49357 14.8781 9.38297 14.8037 9.29 14.71C9.19628 14.617 9.12188 14.5064 9.07111 14.3846C9.02034 14.2627 8.99421 14.132 8.99421 14C8.99421 13.868 9.02034 13.7373 9.07111 13.6154C9.12188 13.4936 9.19628 13.383 9.29 13.29L10.59 12L9.29 10.71C9.1017 10.5217 8.99591 10.2663 8.99591 10C8.99591 9.7337 9.1017 9.4783 9.29 9.29C9.47831 9.1017 9.7337 8.99591 10 8.99591C10.2663 8.99591 10.5217 9.1017 10.71 9.29L12 10.59L13.29 9.29C13.4783 9.1017 13.7337 8.99591 14 8.99591C14.2663 8.99591 14.5217 9.1017 14.71 9.29C14.8983 9.4783 15.0041 9.7337 15.0041 10C15.0041 10.2663 14.8983 10.5217 14.71 10.71L13.41 12L14.71 13.29Z"
+              fill="black"
+            />
+          </svg>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="nav-cta"><a href="#">Order Now</a></li>
+            <li class="nav-cta"><a href="#">Become a merchant</a></li>
+          </ul>
+          <div class="icons">
+            <svg
+              class="person"
+              viewBox="0 0 24 24"
+              fill="white"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                stroke="#0B63B2"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M20.5901 22C20.5901 18.13 16.7402 15 12.0002 15C7.26015 15 3.41016 18.13 3.41016 22"
+                stroke="#0B63B2"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <svg
+              viewBox="0 0 24 24"
+              class="cart"
+              fill="white"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 2H3.74001C4.82001 2 5.67 2.93 5.58 4L4.75 13.96C4.61 15.59 5.89999 16.99 7.53999 16.99H18.19C19.63 16.99 20.89 15.81 21 14.38L21.54 6.88C21.66 5.22 20.4 3.87 18.73 3.87H5.82001"
+                stroke="#0B63B2"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M16.25 22C16.9404 22 17.5 21.4404 17.5 20.75C17.5 20.0596 16.9404 19.5 16.25 19.5C15.5596 19.5 15 20.0596 15 20.75C15 21.4404 15.5596 22 16.25 22Z"
+                stroke="#0B63B2"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M8.25 22C8.94036 22 9.5 21.4404 9.5 20.75C9.5 20.0596 8.94036 19.5 8.25 19.5C7.55964 19.5 7 20.0596 7 20.75C7 21.4404 7.55964 22 8.25 22Z"
+                stroke="#05DD6B"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9 8H21"
+                stroke="#05DD6B"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </nav>
+        <div class="cta-buttons">
+          <ul>
+            <li class="order-now"><a href="#">Order Now</a></li>
+            <li class="merchant"><a href="#">Become a merchant</a></li>
+          </ul>
+        </div>
+        <div class="nav-icon">
+          <ul>
+            <li>
+              <svg
+                viewBox="0 0 24 24"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                  stroke="#0B63B2"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20.5901 22C20.5901 18.13 16.7402 15 12.0002 15C7.26015 15 3.41016 18.13 3.41016 22"
+                  stroke="#0B63B2"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                viewBox="0 0 24 24"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 2H3.74001C4.82001 2 5.67 2.93 5.58 4L4.75 13.96C4.61 15.59 5.89999 16.99 7.53999 16.99H18.19C19.63 16.99 20.89 15.81 21 14.38L21.54 6.88C21.66 5.22 20.4 3.87 18.73 3.87H5.82001"
+                  stroke="#0B63B2"
+                  stroke-width="2"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16.25 22C16.9404 22 17.5 21.4404 17.5 20.75C17.5 20.0596 16.9404 19.5 16.25 19.5C15.5596 19.5 15 20.0596 15 20.75C15 21.4404 15.5596 22 16.25 22Z"
+                  stroke="#0B63B2"
+                  stroke-width="2"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.25 22C8.94036 22 9.5 21.4404 9.5 20.75C9.5 20.0596 8.94036 19.5 8.25 19.5C7.55964 19.5 7 20.0596 7 20.75C7 21.4404 7.55964 22 8.25 22Z"
+                  stroke="#05DD6B"
+                  stroke-width="2"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 8H21"
+                  stroke="#05DD6B"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+
+        <svg
+          class="menu"
+          viewBox="0 0 48 49"
+          fill="yellow"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 14.2849H42"
+            stroke="#333333"
+            stroke-width="2.6875"
+            stroke-linecap="round"
+          />
+          <path
+            d="M6 24.2847H42"
+            stroke="#333333"
+            stroke-width="2.6875"
+            stroke-linecap="round"
+          />
+          <path
+            d="M6 34.2849H42"
+            stroke="#333333"
+            stroke-width="2.6875"
+            stroke-linecap="round"
+          />
+        </svg>
+      </header>
+      <!--HERO SECTION-->
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img src="images/hero-mobile.png" alt="" />
+          </div>
+          <div class="text">
+            <h1>
+              Quality products <br />
+              <span>for a </span>better wellbeing
+            </h1>
+            <p>
+              Let's help you save time and live healthy by delivering them to
+              you in no time.
+            </p>
+            <button class="cta">Shop Now</button>
+          </div>
+        </div>
+        <div class="sub-hero">
+          <h4>
+            Empowering trust through conscientious care and unwavering
+            dedication.
+          </h4>
+          <div class="sub-hero-images">
+            <div class="deliveries">
+              <img src="images/guarded-deliveries.svg" alt="delivery" />
+              <p class="sub-hero-text">Guarded Deliveries</p>
+            </div>
+            <div class="deliveries">
+              <img src="images/tick.svg" alt="tick" />
+              <p class="sub-hero-text">Privacy Priority</p>
+            </div>
+            <div class="deliveries">
+              <img src="images/truck-fast.svg" alt="truck" />
+              <p class="sub-hero-text">Swift Deliveries</p>
+            </div>
+
+            <!--Keep space-->
+          </div>
+        </div>
+      </section>
+      <!--RELATIONSHIP SECTION-->
+      <section class="relationship" id="relationship">
+        <div class="relationship-content">
+          <div class="rel-image">
+            <img src="images/rel-img.svg" alt="" />
+          </div>
+          <div class="relationship-text">
+            <h2>We create good customer relationships</h2>
+            <p>
+              At e-medicstore, we focus on building strong bonds with our
+              customers. We listen, understand, and care about your needs to
+              ensure a great experience with us
+            </p>
+            <button class="cta relationship-btn">Contact Us</button>
+          </div>
+        </div>
+      </section>
+      <!--VALUE SECTION-->
+      <section class="value" id="value">
+        <h2>Best Value Guaranteed!</h2>
+        <p>
+          Find the best deals and ensure cost-effectiveness without sacrificing
+          excellence.
+        </p>
+        <div class="value-content">
+          <div class="med">
+            <img class="first-med" src="images/first-med.svg" alt="med" />
+            <div class="text">
+              <h5>Plaqueni</h5>
+              <div class="price">
+                <h6>Price: <span>N3000</span>₦2,850</h6>
+              </div>
+            </div>
+          </div>
+          <div class="med">
+            <img class="second-med" src="images/second-med.svg" alt="med" />
+            <div class="text second-med-text">
+              <h5>Hydrochloroquine</h5>
+              <div class="price">
+                <h6 class="second-price">Price: <span>N3000</span>₦2,850</h6>
+              </div>
+            </div>
+          </div>
+          <div class="med">
+            <img class="third-med" src="images/third-med.svg" alt="med" />
+            <div class="text third-med-text">
+              <h5>ENCOF Syrup</h5>
+              <div class="price">
+                <h6>Price: <span>N3000</span>₦2,850</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="cta value-btn">Order Now</button>
+      </section>
+      <!--MEDICATION-SECTION-->
+      <section class="medication" id="medication">
+        <div class="medication-content">
+          <h2>
+            Struggling <span>to </span>find <span>your</span> desired
+            medication?
+          </h2>
+          <button class="medication-btn">
+            Upload your prescription
+            <img src="images/upload.svg" alt="" />
+          </button>
+        </div>
+      </section>
+      <!--CONSULTATION SECTION-->
+      <section class="consultation" id="consultation">
+        <div class="consultation-content">
+          <div class="consultation-text">
+            <h2>Expert Consultation at Your Fingertips</h2>
+            <p>
+              Connect with certified experts online to discuss your health
+              issues. Ask questions, share concerns, or make special requests.
+              Our specialists are ready to help you. Start chatting now for
+              support tailored to you
+            </p>
+            <button class="consultation-btn">Talk to a specialist</button>
+          </div>
+          <div class="consultation-image-box">
+            <img src="images/consultation.png" alt="doctor" />
+          </div>
+        </div>
+      </section>
+      <!--BLOG SECTION-->
+      <section class="blog" id="blog">
+        <h2>You should also check our blogs</h2>
+        <div class="blog-box">
+          <div class="blog-content">
+            <img src="images/blog-img1.png" alt="male and worried female" />
+            <h3>
+              Sexual Dysfunction in Females: Definition, Types, Causes,Symptoms,
+              and Treatments
+            </h3>
+            <h4>Sex and sexual health</h4>
+            <p>
+              Sexual dysfunction involves a persistent decrease in sexual
+              function. Learn common causes and treatments for sexual
+              dysfunction <span><a href="#">...read more</a></span>
+            </p>
+            <div class="avatar-box">
+              <div class="avatar-box-content">
+                <div class="avatar-box-image">
+                  <img src="images/blog-avatars1.png" alt="avatar" />
+                </div>
+                <div class="avatar-box-text">
+                  <h3>Jemmy June</h3>
+                  <p>September 02 ,2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-content">
+            <img src="images/blog-img1.png" alt="male and worried female" />
+            <h3>
+              Sexual Dysfunction in Females: Definition, Types, Causes,Symptoms,
+              and Treatments
+            </h3>
+            <h4>Sex and sexual health</h4>
+            <p>
+              Sexual dysfunction involves a persistent decrease in sexual
+              function. Learn common causes and treatments for sexual
+              dysfunction <span><a href="#">...read more</a></span>
+            </p>
+            <div class="avatar-box">
+              <div class="avatar-box-content">
+                <div class="avatar-box-image">
+                  <img src="images/blog-avatars1.png" alt="avatar" />
+                </div>
+                <div class="avatar-box-text">
+                  <h3>Jemmy June</h3>
+                  <p>September 02 ,2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-content">
+            <img src="images/blog-img1.png" alt="male and worried female" />
+            <h3>
+              Sexual Dysfunction in Females: Definition, Types, Causes,Symptoms,
+              and Treatments
+            </h3>
+            <h4>Sex and sexual health</h4>
+            <p>
+              Sexual dysfunction involves a persistent decrease in sexual
+              function. Learn common causes and treatments for sexual
+              dysfunction <span><a href="#">...read more</a></span>
+            </p>
+            <div class="avatar-box">
+              <div class="avatar-box-content">
+                <div class="avatar-box-image">
+                  <img src="images/blog-avatars1.png" alt="avatar" />
+                </div>
+                <div class="avatar-box-text">
+                  <h3>Jemmy June</h3>
+                  <p>September 02 ,2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CONTAINER SPACE-->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
