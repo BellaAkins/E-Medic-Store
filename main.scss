@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Quicksand:wght@400;600&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -46,11 +46,12 @@
 
 body {
   //NAV
-  //background: red;
+
   header {
     display: flex;
     justify-content: space-around;
     margin: 1.2em;
+    //display: none;
 
     .close {
       float: right;
@@ -217,6 +218,7 @@ body {
   }
   //RELATIONSHIP SECTION
   section.relationship {
+    //display: none;
     .relationship-content {
       margin-top: 4em;
       display: block;
@@ -250,7 +252,7 @@ body {
         }
 
         .relationship-btn {
-          font-family: Inter;
+          font-family: "Inter";
         }
       }
     }
@@ -258,6 +260,7 @@ body {
 
   //VALUE SECTION
   section.value {
+    // display: none;
     margin-top: 3em;
     h2 {
       color: #0b63b2;
@@ -351,6 +354,7 @@ body {
 
   //MEDICATION SECTION
   section.medication {
+    // display: none;
     margin-top: 3em;
 
     .medication-content {
@@ -409,6 +413,7 @@ body {
 
   //CONSULTATION SECTION
   section.consultation {
+    //display: none;
     margin-top: 3em;
     padding: 2em;
 
@@ -471,6 +476,7 @@ body {
 
   //BLOG SECTION
   section.blog {
+    //display: none;
     h2 {
       color: #0b63b2;
       font-size: 24px;
@@ -611,6 +617,7 @@ body {
   section.review {
     display: block;
     margin-top: 3em;
+    display: none;
     .review-first-box {
       margin-bottom: 4em;
       &:hover {
@@ -820,6 +827,7 @@ body {
 
   //SPONSOR-SECTION
   section.sponsor {
+    display: none;
     .sponsor-box {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -839,6 +847,7 @@ body {
   section.newsletter {
     background: #0b63b2;
     margin-top: 3em;
+    display: none;
     .newsletter-text {
       text-align: center;
       padding: 1em;
