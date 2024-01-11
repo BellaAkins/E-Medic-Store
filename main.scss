@@ -827,7 +827,7 @@ body {
 
   //SPONSOR-SECTION
   section.sponsor {
-    display: none;
+    //display: none;
     .sponsor-box {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -847,7 +847,7 @@ body {
   section.newsletter {
     background: #0b63b2;
     margin-top: 3em;
-    display: none;
+
     .newsletter-text {
       text-align: center;
       padding: 1em;
@@ -870,9 +870,10 @@ body {
     }
     form {
       position: relative;
-      width: 450px;
-      margin: 0 auto;
+      width: 330px;
+      //margin: 0 auto;
       margin-top: 2em;
+      //display: none;
       input {
         display: flex;
         width: 382px;
