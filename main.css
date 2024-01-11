@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Quicksand:wght@400;600&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -205,7 +206,7 @@ body section.relationship .relationship-content .relationship-text p {
   margin-top: 1.7em;
 }
 body section.relationship .relationship-content .relationship-text .relationship-btn {
-  font-family: Inter;
+  font-family: "Inter";
 }
 body section.value {
   margin-top: 3em;
@@ -511,6 +512,7 @@ body section.blog .blog-btn:hover {
 body section.review {
   display: block;
   margin-top: 3em;
+  display: none;
 }
 body section.review .review-first-box {
   margin-bottom: 4em;
@@ -687,6 +689,9 @@ body section.review .review-second-box a {
   margin: 0 auto;
   margin-top: 2em;
 }
+body section.sponsor {
+  display: none;
+}
 body section.sponsor .sponsor-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -701,6 +706,7 @@ body section.sponsor .sponsor-box img:hover {
 body section.newsletter {
   background: #0b63b2;
   margin-top: 3em;
+  display: none;
 }
 body section.newsletter .newsletter-text {
   text-align: center;
