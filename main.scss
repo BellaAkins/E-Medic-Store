@@ -117,16 +117,18 @@ body {
       }
 
       .text {
-        margin-left: 1.2em;
+        //display: none;
+        margin-left: 1em;
         h1 {
+          //display: none;
           margin-top: 2.3em;
           color: #0b63b2;
-          font-size: 38px;
+          font-size: 35px;
           font-style: normal;
           font-weight: 700;
           line-height: 45.6px;
           letter-spacing: -0.38px;
-          width: 347px;
+          width: 340px;
 
           span {
             color: #0b63b2;
@@ -174,6 +176,7 @@ body {
     }
 
     .sub-hero {
+      //display: none;
       h4 {
         width: 326px;
         color: var(--Foundation-Blue-Normal, #0b63b2);
@@ -226,15 +229,17 @@ body {
         img {
           display: block;
           margin-left: 2em;
-          width: 320px;
+          width: 310px;
           height: 296.62px;
         }
       }
 
       .relationship-text {
         padding: 1.5em;
+        // display: none;
         h2 {
-          width: 343px;
+          //display: none;
+          width: 323px;
           color: #0b63b2;
           font-size: 36px;
           font-style: normal;
@@ -242,7 +247,8 @@ body {
           line-height: 43.2px;
         }
         p {
-          width: 343px;
+          //display: none;
+          width: 313px;
           color: #676767;
           font-size: 16px;
           font-style: normal;
@@ -415,23 +421,25 @@ body {
   section.consultation {
     //display: none;
     margin-top: 3em;
-    padding: 2em;
+    padding: 0.7em;
 
     .consultation-content {
       display: flex;
       flex-direction: column-reverse;
       .consultation-image-box {
         img {
-          width: 360px;
+          width: 340px;
           height: 325px;
           margin: 0 auto;
           display: block;
+          //display: none;
         }
       }
       .consultation-text {
         margin-top: 3em;
+        //display: none;
         h2 {
-          width: 377px;
+          width: 337px;
           color: #0b63b2;
           font-size: 34px;
           font-style: normal;
@@ -465,7 +473,7 @@ body {
           margin-top: 1.2em;
 
           &:hover {
-            border: 2px solid #0b63b2;
+            border: 1px solid #0b63b2;
             color: #0b63b2;
             background: none;
           }
@@ -476,10 +484,10 @@ body {
 
   //BLOG SECTION
   section.blog {
-    //display: none;
+    // display: none;
     h2 {
       color: #0b63b2;
-      font-size: 24px;
+      font-size: 23px;
       font-style: normal;
       font-weight: 600;
       line-height: 57.6px;
@@ -491,11 +499,11 @@ body {
       margin-top: 2em;
 
       .blog-content {
-        height: 580px;
-        width: 390px;
+        //height: 580px;
+        // width: 390px;
         margin: 0 auto;
         margin-top: 2em;
-        padding: 0.2em;
+        // padding: 0.2em;
         &:hover {
           background: #fff;
           border-radius: 12px;
@@ -559,6 +567,7 @@ body {
         }
         .avatar-box {
           //background-color: green;
+          margin-left: 1.5em;
 
           .avatar-box-content {
             display: flex;
@@ -588,7 +597,7 @@ body {
     .blog-btn {
       display: block;
       margin: 0 auto;
-      margin-top: 0.1em;
+      margin-top: 1.5em;
       display: flex;
       width: 185px;
       padding: 12px 20px;
@@ -618,8 +627,10 @@ body {
     display: block;
     margin-top: 3em;
     display: none;
+
     .review-first-box {
       margin-bottom: 4em;
+      display: none;
       &:hover {
         background: #fff;
         border-radius: 12px;
@@ -750,10 +761,11 @@ body {
     }
     .review-second-box {
       margin-top: 5em;
-      //background: blue;
+     
       width: 400px;
       padding: 3px 6px;
       margin: 0 auto;
+
 
       &:hover {
         background: #fff;
@@ -837,14 +849,15 @@ body {
       img {
         &:hover {
           transform: scale(1.1);
-          border: 1px solid #04a650;
-          padding: 0px 10px;
+          //border: 1px solid #04a650;
+          //padding: 0px 10px;
         }
       }
     }
   }
 
   section.newsletter {
+    //display: none;
     background: #0b63b2;
     margin-top: 3em;
 
@@ -870,16 +883,14 @@ body {
     }
     form {
       position: relative;
-      width: 330px;
+      width: 300px;
       //margin: 0 auto;
       margin-top: 2em;
-      //display: none;
+      // display: none;
       input {
-        display: flex;
-        width: 382px;
+        width: 321px;
+        margin-left: 0.9em;
         padding: 14px;
-        justify-content: space-between;
-        align-items: center;
         border-radius: 12px;
         background: #fdfdfd;
         border: none;
@@ -890,7 +901,7 @@ body {
         left: 20em;
         top: 5px;
         display: flex;
-        width: 105px;
+        width: 90px;
         padding: 6px;
         justify-content: center;
         align-items: center;
