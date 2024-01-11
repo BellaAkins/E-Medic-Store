@@ -38,7 +38,6 @@
 }
 
 body header {
-  font-family: "roboto flex";
   display: flex;
   justify-content: space-around;
   margin: 1.2em;
@@ -204,6 +203,9 @@ body section.relationship .relationship-content .relationship-text p {
   font-weight: 500;
   line-height: 24px;
   margin-top: 1.7em;
+}
+body section.relationship .relationship-content .relationship-text .relationship-btn {
+  font-family: Inter;
 }
 body section.value {
   margin-top: 3em;
@@ -371,11 +373,7 @@ body section.consultation .consultation-content .consultation-text p {
   font-weight: 500;
   line-height: 30px;
 }
-body
-  section.consultation
-  .consultation-content
-  .consultation-text
-  .consultation-btn {
+body section.consultation .consultation-content .consultation-text .consultation-btn {
   display: flex;
   width: 185px;
   padding: 12px 20px;
@@ -392,11 +390,7 @@ body
   color: #fff;
   margin-top: 1.2em;
 }
-body
-  section.consultation
-  .consultation-content
-  .consultation-text
-  .consultation-btn:hover {
+body section.consultation .consultation-content .consultation-text .consultation-btn:hover {
   border: 2px solid #0b63b2;
   color: #0b63b2;
   background: none;
@@ -475,28 +469,14 @@ body section.blog .blog-box .blog-content .avatar-box .avatar-box-content {
   gap: 1em;
   margin-top: 1em;
 }
-body
-  section.blog
-  .blog-box
-  .blog-content
-  .avatar-box
-  .avatar-box-content
-  .avatar-box-text
-  h3 {
+body section.blog .blog-box .blog-content .avatar-box .avatar-box-content .avatar-box-text h3 {
   color: #101928;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
-body
-  section.blog
-  .blog-box
-  .blog-content
-  .avatar-box
-  .avatar-box-content
-  .avatar-box-text
-  p {
+body section.blog .blog-box .blog-content .avatar-box .avatar-box-content .avatar-box-text p {
   color: #344054;
   font-size: 12px;
   font-style: normal;
@@ -591,32 +571,14 @@ body section.review .review-first-box .review-icon-box .review-number {
   margin-top: 0.7em;
   margin-bottom: 0.7em;
 }
-body
-  section.review
-  .review-first-box
-  .review-icon-box
-  .rating-box
-  .ratings-one {
+body section.review .review-first-box .review-icon-box .rating-box .ratings-one {
   display: flex;
   gap: 5px;
 }
-body
-  section.review
-  .review-first-box
-  .review-icon-box
-  .rating-box
-  .ratings-one
-  .ratings-text {
+body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-text {
   display: flex;
 }
-body
-  section.review
-  .review-first-box
-  .review-icon-box
-  .rating-box
-  .ratings-one
-  .ratings-text
-  h5 {
+body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-text h5 {
   color: var(--Foundation-Grey-Normal, #333);
   font-family: Roboto Flex;
   font-size: 16px;
@@ -624,45 +586,16 @@ body
   font-weight: 600;
   line-height: 24px;
 }
-body
-  section.review
-  .review-first-box
-  .review-icon-box
-  .rating-box
-  .ratings-one
-  .ratings-images
-  .ratings-image-one {
+body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-one {
   width: 218px;
 }
-body
-  section.review
-  .review-first-box
-  .review-icon-box
-  .rating-box
-  .ratings-one
-  .ratings-images
-  .ratings-image-one
-  img {
+body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-one img {
   position: absolute;
 }
-body
-  section.review
-  .review-first-box
-  .review-icon-box
-  .rating-box
-  .ratings-one
-  .ratings-images
-  .ratings-image-two
-  img {
+body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-two img {
   position: relative;
 }
-body
-  section.review
-  .review-first-box
-  .review-icon-box
-  .rating-box
-  .ratings-one
-  .ratings-perentage {
+body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-perentage {
   color: var(--Foundation-White-Dark, #adadad);
   font-family: Roboto Flex;
   font-size: 16px;
@@ -724,38 +657,19 @@ body section.review .review-second-box .review-second-box-text p {
   line-height: 30px;
   width: 367px;
 }
-body
-  section.review
-  .review-second-box
-  .review-second-box-text
-  .avatar-box
-  .avatar-box-content {
+body section.review .review-second-box .review-second-box-text .avatar-box .avatar-box-content {
   display: flex;
   gap: 1em;
   margin-top: 1em;
 }
-body
-  section.review
-  .review-second-box
-  .review-second-box-text
-  .avatar-box
-  .avatar-box-content
-  .avatar-box-text
-  h3 {
+body section.review .review-second-box .review-second-box-text .avatar-box .avatar-box-content .avatar-box-text h3 {
   color: #101928;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
-body
-  section.review
-  .review-second-box
-  .review-second-box-text
-  .avatar-box
-  .avatar-box-content
-  .avatar-box-text
-  p {
+body section.review .review-second-box .review-second-box-text .avatar-box .avatar-box-content .avatar-box-text p {
   color: #344054;
   font-size: 12px;
   font-style: normal;
@@ -815,8 +729,8 @@ body section.newsletter form {
 }
 body section.newsletter form input {
   display: flex;
-  width: 412px;
-  padding: 14px 17px;
+  width: 382px;
+  padding: 14px;
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
@@ -825,7 +739,7 @@ body section.newsletter form input {
 }
 body section.newsletter form button {
   position: absolute;
-  left: 23em;
+  left: 20em;
   top: 5px;
   display: flex;
   width: 105px;
@@ -970,11 +884,7 @@ body section.newsletter form button {
     line-height: 20px;
     margin-top: 1em;
   }
-  body
-    section.relationship
-    .relationship-content
-    .relationship-text
-    .relationship-btn {
+  body section.relationship .relationship-content .relationship-text .relationship-btn {
     margin-top: 1em;
     padding: 8px 12px;
     font-size: 14px;
@@ -1100,11 +1010,7 @@ body section.newsletter form button {
     font-weight: 500;
     line-height: 23px;
   }
-  body
-    section.consultation
-    .consultation-content
-    .consultation-text
-    .consultation-btn {
+  body section.consultation .consultation-content .consultation-text .consultation-btn {
     display: flex;
     width: 185px;
     padding: 12px 20px;
@@ -1115,6 +1021,9 @@ body section.newsletter form button {
     line-height: 24px;
     justify-content: center;
     align-items: center;
+  }
+  body section.blog {
+    margin-top: 3em;
   }
   body section.blog h2 {
     color: #0b63b2;
@@ -1192,28 +1101,14 @@ body section.newsletter form button {
     margin-top: 1em;
     margin-left: 4em;
   }
-  body
-    section.blog
-    .blog-box
-    .blog-content
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    h3 {
+  body section.blog .blog-box .blog-content .avatar-box .avatar-box-content .avatar-box-text h3 {
     color: #101928;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
   }
-  body
-    section.blog
-    .blog-box
-    .blog-content
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    p {
+  body section.blog .blog-box .blog-content .avatar-box .avatar-box-content .avatar-box-text p {
     color: #344054;
     font-size: 15px;
     font-style: normal;
@@ -1290,32 +1185,14 @@ body section.newsletter form button {
     margin-top: 0.7em;
     margin-bottom: 0.7em;
   }
-  body
-    section.review
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one {
+  body section.review .review-first-box .review-icon-box .rating-box .ratings-one {
     display: flex;
     gap: 5px;
   }
-  body
-    section.review
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-text {
+  body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-text {
     display: flex;
   }
-  body
-    section.review
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-text
-    h5 {
+  body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-text h5 {
     color: var(--Foundation-Grey-Normal, #333);
     font-family: Roboto Flex;
     font-size: 16px;
@@ -1323,45 +1200,16 @@ body section.newsletter form button {
     font-weight: 600;
     line-height: 24px;
   }
-  body
-    section.review
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-images
-    .ratings-image-one {
+  body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-one {
     width: 218px;
   }
-  body
-    section.review
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-images
-    .ratings-image-one
-    img {
+  body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-one img {
     position: absolute;
   }
-  body
-    section.review
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-images
-    .ratings-image-two
-    img {
+  body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-two img {
     position: relative;
   }
-  body
-    section.review
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-perentage {
+  body section.review .review-first-box .review-icon-box .rating-box .ratings-one .ratings-perentage {
     color: var(--Foundation-White-Dark, #adadad);
     font-family: Roboto Flex;
     font-size: 16px;
@@ -1426,38 +1274,19 @@ body section.newsletter form button {
     line-height: 30px;
     width: 367px;
   }
-  body
-    section.review
-    .review-second-box
-    .review-second-box-text
-    .avatar-box
-    .avatar-box-content {
+  body section.review .review-second-box .review-second-box-text .avatar-box .avatar-box-content {
     display: flex;
     gap: 1em;
     margin-top: 1em;
   }
-  body
-    section.review
-    .review-second-box
-    .review-second-box-text
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    h3 {
+  body section.review .review-second-box .review-second-box-text .avatar-box .avatar-box-content .avatar-box-text h3 {
     color: #101928;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
   }
-  body
-    section.review
-    .review-second-box
-    .review-second-box-text
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    p {
+  body section.review .review-second-box .review-second-box-text .avatar-box .avatar-box-content .avatar-box-text p {
     color: #344054;
     font-size: 12px;
     font-style: normal;
@@ -1517,7 +1346,7 @@ body section.newsletter form button {
   body header nav ul a:hover {
     background: none;
     -webkit-text-decoration: 4px solid #05dd6b underline;
-    text-decoration: 4px solid #05dd6b underline;
+            text-decoration: 4px solid #05dd6b underline;
   }
   body header .cta-buttons,
   body header .nav-icon {
@@ -1681,6 +1510,20 @@ body section.newsletter form button {
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
+  }
+  body section.relationship .relationship-content .relationship-text .relationship-btn {
+    margin-top: 1em;
+    display: flex;
+    width: 181px;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
   }
   body section.value {
     width: 80%;
@@ -1927,28 +1770,14 @@ body section.newsletter form button {
     margin-left: 1em;
     margin-top: 1em;
   }
-  body
-    section.blog
-    .blog-box
-    .blog-content
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    h3 {
+  body section.blog .blog-box .blog-content .avatar-box .avatar-box-content .avatar-box-text h3 {
     color: #101928;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
   }
-  body
-    section.blog
-    .blog-box
-    .blog-content
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    p {
+  body section.blog .blog-box .blog-content .avatar-box .avatar-box-content .avatar-box-text p {
     color: #344054;
     font-size: 12px;
     font-style: normal;
@@ -1987,12 +1816,7 @@ body section.newsletter form button {
     font-weight: 500;
     line-height: 30px;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-first-box-text
-    p.bold {
+  body section.review .review-box .review-first-box .review-first-box-text p.bold {
     color: #333;
     font-size: 72px;
     font-style: normal;
@@ -2004,22 +1828,12 @@ body section.newsletter form button {
     width: 296px;
     margin: 0 auto;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .review-icons {
+  body section.review .review-box .review-first-box .review-icon-box .review-icons {
     display: flex;
     justify-content: center;
     gap: 0.7em;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .review-number {
+  body section.review .review-box .review-first-box .review-icon-box .review-number {
     color: #676767;
     font-size: 20px;
     font-style: normal;
@@ -2030,84 +1844,30 @@ body section.newsletter form button {
     margin-top: 0.7em;
     margin-bottom: 0.7em;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one {
+  body section.review .review-box .review-first-box .review-icon-box .rating-box .ratings-one {
     display: flex;
     gap: 5px;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-text {
+  body section.review .review-box .review-first-box .review-icon-box .rating-box .ratings-one .ratings-text {
     display: flex;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-text
-    h5 {
+  body section.review .review-box .review-first-box .review-icon-box .rating-box .ratings-one .ratings-text h5 {
     color: #333;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-images
-    .ratings-image-one {
+  body section.review .review-box .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-one {
     width: 218px;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-images
-    .ratings-image-one
-    img {
+  body section.review .review-box .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-one img {
     position: absolute;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-images
-    .ratings-image-two
-    img {
+  body section.review .review-box .review-first-box .review-icon-box .rating-box .ratings-one .ratings-images .ratings-image-two img {
     position: relative;
   }
-  body
-    section.review
-    .review-box
-    .review-first-box
-    .review-icon-box
-    .rating-box
-    .ratings-one
-    .ratings-perentage {
+  body section.review .review-box .review-first-box .review-icon-box .rating-box .ratings-one .ratings-perentage {
     color: #adadad;
     font-size: 16px;
     font-style: normal;
@@ -2146,12 +1906,7 @@ body section.newsletter form button {
   body section.review .review-box .review-second-box .review-second-box-text {
     margin-top: 1em;
   }
-  body
-    section.review
-    .review-box
-    .review-second-box
-    .review-second-box-text
-    h3 {
+  body section.review .review-box .review-second-box .review-second-box-text h3 {
     color: #676767;
     font-size: 18px;
     font-style: normal;
@@ -2166,41 +1921,19 @@ body section.newsletter form button {
     line-height: 30px;
     width: 367px;
   }
-  body
-    section.review
-    .review-box
-    .review-second-box
-    .review-second-box-text
-    .avatar-box
-    .avatar-box-content {
+  body section.review .review-box .review-second-box .review-second-box-text .avatar-box .avatar-box-content {
     display: flex;
     gap: 1em;
     margin-top: 1em;
   }
-  body
-    section.review
-    .review-box
-    .review-second-box
-    .review-second-box-text
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    h3 {
+  body section.review .review-box .review-second-box .review-second-box-text .avatar-box .avatar-box-content .avatar-box-text h3 {
     color: #101928;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
   }
-  body
-    section.review
-    .review-box
-    .review-second-box
-    .review-second-box-text
-    .avatar-box
-    .avatar-box-content
-    .avatar-box-text
-    p {
+  body section.review .review-box .review-second-box .review-second-box-text .avatar-box .avatar-box-content .avatar-box-text p {
     color: #344054;
     font-size: 12px;
     font-style: normal;
@@ -2294,4 +2027,4 @@ body section.newsletter form button {
     font-weight: 600;
     line-height: 20px;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
